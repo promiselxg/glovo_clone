@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./_components/Hero/Hero";
 import TopResturants from "./_components/Section/TopResturants/TopResturants";
+import AnythingDelivered from "./_components/Section/AnythingDelivered/AnythingDelivered";
 
 const page = () => {
   return (
@@ -8,6 +9,7 @@ const page = () => {
       <div className="w-full relative">
         <Hero />
         <TopResturants />
+        <AnythingDelivered />
       </div>
     </>
   );
