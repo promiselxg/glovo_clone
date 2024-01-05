@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const Header = () => {
   return (
     <>
-      <header className="w-full bg-[--bg-yellow]">
+      <header className="w-full bg-[--bg-yellow] sticky top-0 z-10">
         <div className="mx-auto w-[1100px] ">
           <div className="flex items-center justify-between h-[100px]">
             <div>

@@ -3,7 +3,7 @@ import { FiFlag, FiNavigation } from "react-icons/fi";
 const Hero = () => {
   return (
     <>
-      <section className="hero_section w-full items-center  h-[550px]">
+      <section className="hero_section w-full items-center  h-[550px] bg-[--bg-yellow]">
         <div className="mx-auto w-[1100px] items-center">
           <div className="flex items-center justify-between">
             <div className="w-[40%]">
