@@ -81,7 +81,7 @@ const countryList = [
 const Countries = () => {
   return (
     <>
-      <div className="w-full h-fit countries flex bg-[--bg-yellow] py-10">
+      <section className="w-full h-fit countries flex bg-[--bg-yellow] ">
         <div className="mx-auto w-[1100px]">
           <div className="flex justify-center items-center text-center flex-col py-10">
             <div className="flex">
@@ -97,12 +97,12 @@ const Countries = () => {
             </h1>
             <div className="flex w-full  justify-center gap-2 flex-wrap gap-y-3">
               {countryList?.map((list, i) => {
-                return <ButtonLink country={list?.country} key={i} />;
+                return <ButtonLink label={list?.country} key={i} />;
               })}
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

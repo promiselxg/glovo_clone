@@ -85,6 +85,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 .hero_section {
   background-clip: padding-box;
   border-bottom: 74px solid transparent;
@@ -122,4 +123,24 @@
   border-image-slice: 100 0 60;
   border-image-source: url("/img/landing-links-waves-desktop.svg");
   border-top: 100px solid transparent;
+  margin-bottom: -60px;
+}
+.lets_do_it {
+  background-clip: padding-box;
+  background-color: #e9f8f5ff;
+  border-image-slice: 80 0 0;
+  border-image-source: url("/img/corporate-wave-desktop.svg");
+  border-top: 80px solid transparent;
+  margin-bottom: -135px;
+  padding-bottom: 180px;
+  position: relative;
+}
+.footer {
+  background-clip: padding-box;
+  background-color: #1d1d1dff;
+  border-image-slice: 68 0 0;
+  border-image-source: url("/img/footer-wave-desktop.svg");
+  border-top: 68px solid transparent;
+  margin-top: 68px;
+  z-index: 4;
 }
