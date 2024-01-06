@@ -116,3 +116,10 @@
   object-fit: cover;
   width: 100%;
 }
+.countries {
+  background-clip: padding-box;
+  border-bottom: 60px solid transparent;
+  border-image-slice: 100 0 60;
+  border-image-source: url("/img/landing-links-waves-desktop.svg");
+  border-top: 100px solid transparent;
+}
