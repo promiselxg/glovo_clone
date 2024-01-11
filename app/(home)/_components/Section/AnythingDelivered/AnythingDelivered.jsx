@@ -22,7 +22,7 @@ const AnythingDelivered = () => {
                   Your city&apos;s top restaurants
                 </h1>
                 <div className="flex text-center justify-center flex-col w-full items-center">
-                  <p className="text-[12px] font-[300] leading-relaxed py-2">
+                  <p className="text-[16px] font-[400] leading-relaxed py-2">
                     With a great variety of restaurants you can order your
                     favourite food or&nbsp;
                     <mark className="bg-[#FFC244FF] rounded-full px-[4px] leading-6 text-[10px] w-fit">
@@ -45,7 +45,7 @@ const AnythingDelivered = () => {
                   Fast delivery
                 </h1>
                 <div className="flex text-center justify-center flex-col w-full items-center">
-                  <p className="text-[12px] font-[300] leading-relaxed py-2">
+                  <p className="text-[16px] font-[400] leading-relaxed py-2">
                     Like a flash! Order or send anything in your city and
                   </p>
                   <mark className="bg-[#FFC244FF] rounded-full px-[4px] leading-6 text-[10px] w-fit">
@@ -67,7 +67,7 @@ const AnythingDelivered = () => {
                   Groceries delivery &amp; more
                 </h1>
                 <div className="flex text-center justify-center flex-col w-full items-center">
-                  <p className="text-[12px] font-[300] leading-relaxed py-2">
+                  <p className="text-[16px] font-[400] leading-relaxed py-2">
                     Find anything you need! From
                     <mark className="bg-[#FFC244FF] rounded-full px-[4px] leading-6 text-[10px] w-fit">
                       supermarkets to shops, pharmacies to florists
